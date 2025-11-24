@@ -1,0 +1,19 @@
+2025-11-24 21:17:43,831 - INFO - SUccessfully read YAML file
+2025-11-24 21:17:43,832 - INFO - Data ingestion started with mlops-demo-1-hotelmanagement-new and file Hotel_Reservations.csv
+2025-11-24 21:17:43,832 - INFO - Starting data ingestion
+2025-11-24 21:17:46,957 - ERROR - Got error while downloading file
+2025-11-24 21:17:46,958 - INFO - Data ingestion completed
+2025-11-24 21:31:53,390 - INFO - SUccessfully read YAML file
+2025-11-24 21:31:53,393 - INFO - Data ingestion started with mlops-demo-1-hotelmanagement-new and file Hotel_Reservations.csv
+2025-11-24 21:31:53,393 - INFO - Starting data ingestion
+2025-11-24 21:31:56,462 - ERROR - Got error while downloading file
+2025-11-24 21:31:56,462 - ERROR - CustomException: Error in C:\Users\Harshith\Desktop\MLOps_Project_1\src\data_ingestion.py : line number 27 : Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-11-24 21:31:56,462 - INFO - Data ingestion completed
+2025-11-24 21:40:48,550 - INFO - SUccessfully read YAML file
+2025-11-24 21:40:48,550 - INFO - Data ingestion started with mlops-demo-1-hotelmanagement-new and file Hotel_Reservations.csv
+2025-11-24 21:40:48,553 - INFO - Starting data ingestion
+2025-11-24 21:40:59,011 - INFO - CSV file downloaded from GCP bucket
+2025-11-24 21:40:59,011 - INFO - Startnig splitting process
+2025-11-24 21:40:59,444 - INFO - Data split into train and test and stored to {TRAIN_FILE_PATH} and {TEST_FILE_PATH}
+2025-11-24 21:40:59,453 - INFO - Data ingestion completed
+2025-11-24 21:40:59,453 - INFO - Data ingestion completed

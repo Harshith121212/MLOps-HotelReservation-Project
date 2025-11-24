@@ -1,5 +1,6 @@
 from config.path_config import CONFIG_PATH
 import os
+import sys
 import pandas as pd
 from google.cloud import storage
 from sklearn.model_selection import train_test_split
@@ -30,7 +31,7 @@ class DataIngestion:
             logger.info("CSV file downloaded from GCP bucket")
         except Exception as e:
             logger.error("Got error while downloading file")
-            raise CustomException("Failed to download csv file", e)
+            raise CustomException(e, sys)
 
     def split_data(self):
         try:
@@ -44,7 +45,7 @@ class DataIngestion:
 
         except Exception as e:
             logger.error("Got error while splitting data")
-            raise CustomException("Failed to split data", e)
+            raise CustomException(e, sys)
     
     def run(self):
         try:
@@ -58,6 +59,6 @@ class DataIngestion:
         finally:
             logger.info("Data ingestion completed")
 
-if _name__ == "__main__":
+if __name__ == "__main__":
     data_ingestion = DataIngestion(read_yaml(CONFIG_PATH))
     data_ingestion.run()
