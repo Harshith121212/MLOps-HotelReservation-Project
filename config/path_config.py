@@ -8,3 +8,9 @@ TEST_FILE_PATH = os.path.join(RAW_DIR, "test.csv")
 
 CONFIG_PATH = "config/config.yaml"
 
+
+###Data Processing###
+
+PROCESSED_DIRECTORY = "artifacts/processed"
+PROCESSED_TRAIN_DATA_PATH = os.path.join(PROCESSED_DIRECTORY, "processed_train.csv")
+PROCESSED_TEST_DATA_PATH = os.path.join(PROCESSED_DIRECTORY, "processed_test.csv")

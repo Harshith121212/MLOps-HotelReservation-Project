@@ -37,11 +37,11 @@ class DataIngestion:
         try:
             logger.info(f"Startnig splitting process")
             data = pd.read_csv(RAW_FILE_PATH)
-            train_data, test_Data = train_data, test_data = train_test_split(data, test_size=1-self.train_test_ratio, random_state=42)
+            train_data, test_data = train_test_split(data, test_size=1-self.train_test_ratio, random_state=42)
 
             train_data.to_csv(TRAIN_FILE_PATH)
             test_data.to_csv(TEST_FILE_PATH)
-            logger.info("Data split into train and test and stored to {TRAIN_FILE_PATH} and {TEST_FILE_PATH}")
+            logger.info(f"Data split into train and test and stored to {TRAIN_FILE_PATH} and {TEST_FILE_PATH}")
 
         except Exception as e:
             logger.error("Got error while splitting data")
