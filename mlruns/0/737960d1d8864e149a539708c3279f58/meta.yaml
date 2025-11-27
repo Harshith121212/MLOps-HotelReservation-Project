@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Harshith/Desktop/MLOps_Project_1/mlruns/0/737960d1d8864e149a539708c3279f58/artifacts
+end_time: 1764255853095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 737960d1d8864e149a539708c3279f58
+run_name: grandiose-trout-344
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764255853023
+status: 4
+tags: []
+user_id: Harshith

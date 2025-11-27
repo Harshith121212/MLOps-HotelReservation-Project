@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Harshith/Desktop/MLOps_Project_1/mlruns/0/af6a015ad1fe485facea6085586eea26/artifacts
+end_time: 1764255889036
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af6a015ad1fe485facea6085586eea26
+run_name: sedate-bug-348
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764255888976
+status: 4
+tags: []
+user_id: Harshith

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Harshith/Desktop/MLOps_Project_1/mlruns/0/fce8c6baeb354e0b9b02a7a34bbce99b/artifacts
+end_time: 1764256145233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fce8c6baeb354e0b9b02a7a34bbce99b
+run_name: whimsical-jay-397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764256138677
+status: 3
+tags: []
+user_id: Harshith

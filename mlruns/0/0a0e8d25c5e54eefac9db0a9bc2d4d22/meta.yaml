@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Harshith/Desktop/MLOps_Project_1/mlruns/0/0a0e8d25c5e54eefac9db0a9bc2d4d22/artifacts
+end_time: 1764255709354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a0e8d25c5e54eefac9db0a9bc2d4d22
+run_name: nervous-goat-884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764255709240
+status: 4
+tags: []
+user_id: Harshith

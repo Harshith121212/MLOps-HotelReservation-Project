@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Harshith/Desktop/MLOps_Project_1/mlruns/0/87b6d09a7c7f48d1bfb621192e667d20/artifacts
+end_time: 1764256072877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87b6d09a7c7f48d1bfb621192e667d20
+run_name: abrasive-ape-366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764256067665
+status: 3
+tags: []
+user_id: Harshith
